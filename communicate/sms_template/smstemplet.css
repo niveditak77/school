@@ -1,0 +1,22 @@
+.smstmpbtn{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #44b8ab;
+    text-transform: none;
+    width: 190px;
+    font-size: 15px;
+    left:755px;
+    cursor:pointer;
+}
+.smstmpbtn:hover{
+    background-color: #89d6cd;
+}
+
+
+
+.existinghr{
+    margin-top: -15px;
+    width:80.4%;
+    margin-left: 178px;
+}

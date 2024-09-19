@@ -1,0 +1,48 @@
+.uploadbtn{
+    margin-top: 18px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-color: #44b8ab;
+    text-transform: none;
+    width: 100px;
+    font-size: 15px;
+    margin-left:2px;
+}
+.uploadbtn:hover{
+    background-color: #89d6cd;
+}
+
+.uploadcontainer{
+  
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .uploadtable{
+    width: 100%;
+    border-collapse: collapse;
+    CURSOR:POINTER;
+  }
+
+  .uploadtable th, .uploadtable td {
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.uploadtable th {
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+}
+
+.uploadtable tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.uploadtable tbody tr:hover {
+    background-color: #f9f9f9;
+
+}
+

@@ -1,0 +1,51 @@
+.complainbtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #44b8ab;
+    text-transform: none;
+    width: 200px;
+    font-size: 13.7px;
+    left: 750px;
+}
+
+.complainbtn:hover {
+    background-color: #89d6cd;
+}
+
+.complaincontain {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.complaintable {
+    width: 100%;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+.complaintableth, .complaintabletd {
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.complaintable th {
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+}
+.complaintable tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.complaintable tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.complainthr {
+    margin-top: -15px;
+    width: 85%;
+    margin-left: 140px;
+}

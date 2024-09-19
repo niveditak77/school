@@ -1,0 +1,63 @@
+/* Global Body Style */
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+  }
+  
+  body {
+    position: relative;
+    background-color: white;
+    color: black;
+  }
+ 
+.main-container {
+  height: 100%;
+  overflow-y: auto; 
+}
+
+  
+  /* Material-UI Overrides */
+  .MuiOutlinedInput-root {
+    background-color: #F4F4F5; 
+    /* Darker elements background */
+    /* border-radius: 10px; */
+    /* border: 1px solid #ccc Rounded corners like in the image */
+  }
+  
+   .MuiOutlinedInput-notchedOutline {
+    border-color: #F4F4F5; 
+    border-radius:15px;
+    
+   } 
+  
+   .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color:#F4F4F5; 
+  } 
+  
+  .MuiInputLabel-outlined {
+    color: rgb(151, 148, 148); 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+  }
+  
+  .MuiInputLabel-outlined.Mui-focused {
+    color: orange; 
+    font-size:16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;/* Brighter color on focus */
+  }
+  
+  .MuiButton-containedPrimary {
+    background-color:#44b8ab;
+    border-radius:19px; /* Custom primary button color */
+  }
+  .MuiButton-containedPrimary:hover{
+    background-color:#89d6cd; 
+    /* background-color:#daf6f3;  */
+    
+  }
+
+
+  

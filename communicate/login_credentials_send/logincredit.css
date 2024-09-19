@@ -1,0 +1,15 @@
+.logincreditbtn{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #44b8ab;
+    text-transform: none;
+    width: 150px;
+    font-size: 15px;
+    left:780px;
+    cursor:pointer;
+}
+
+.logincreditbtn:hover{
+    background-color: #89d6cd;
+}

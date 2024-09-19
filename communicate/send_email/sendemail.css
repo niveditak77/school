@@ -1,0 +1,33 @@
+.custom-dropzone {
+    background-color: #f4f4f5 !important;
+    border-radius: 20px !important;
+    border: none !important;
+    padding: 20px !important;
+    color: #000 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  }
+  
+  .custom-dropzone p {
+    color: #999 !important;
+    font-size: 16px !important;
+  }
+  .sendemailbtn{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #44b8ab;
+    text-transform: none;
+    width: 150px;
+    font-size: 15px;
+    left:765px;
+}
+
+.sendemailbtn:hover{
+    background-color: #89d6cd;
+}  
+
+.emailsndhr{
+    margin-top: -15px;
+    width:86%;
+    margin-left: 120px;
+}

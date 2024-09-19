@@ -1,0 +1,25 @@
+.sendsmshr{
+    margin-top: -15px;
+    width:83.8%;
+    margin-left: 137px;
+}
+.sendsmshr2{
+    margin-top: -15px;
+    width:85.5%;
+    margin-left: 120px;
+}
+
+.sendsmsbtn{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #44b8ab;
+    text-transform: none;
+    width: 150px;
+    font-size: 15px;
+    left:717px;
+}
+
+.sendsmsbtn:hover{
+    background-color: #89d6cd;
+}

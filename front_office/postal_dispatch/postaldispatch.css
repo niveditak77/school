@@ -1,0 +1,52 @@
+.postalcontainer{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.postaltable{
+    width: 100%;
+    border-collapse: collapse;
+    CURSOR:POINTER;
+}
+
+.postaltableth, .postaltabletd {
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.postaltable th {
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+}
+
+.postaltabletbody tr:last-child td {
+    border-bottom: none;
+}
+
+.postaltable tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.postalhr{
+    margin-top: -15px;
+    width:80%;
+    margin-left: 186px;
+}
+
+.postalbtn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #44b8ab;
+    text-transform: none;
+    width: 200px;
+    font-size: 13.7px;
+
+}
+
+.postalbtn:hover{
+    background-color: #89d6cd;
+}

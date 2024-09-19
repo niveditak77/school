@@ -1,0 +1,64 @@
+.emailsmscont{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: -2px;
+}
+
+.emailsmstable{
+    width: 100%;
+    border-collapse: collapse;
+    CURSOR:POINTER;
+}
+
+.emailsmstable th, .emailsmstabletd {
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.emailsmstable th {
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+}
+
+.emailsmstable tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.emailsmstable tbody tr:hover {
+    background-color: #f9f9f9;
+
+}
+.emailsmsrow{
+    cursor:pointer;
+}
+
+.searchemailsms{
+    margin-bottom: 16px;
+    width: 102%;
+    margin-left: -10px;
+}
+  
+  /* Styling for the input field */
+  .search-input {
+    border-radius: 10px;                /* Rounded borders for a softer appearance */
+    background-color:#f4f4f5;            /* White background to match the theme */          /* Light grey border */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border:none;  /* Subtle shadow to create depth */
+    height:50px;              
+  }
+  
+  /* Styling for the label of the input field */
+  .search-label {
+    color: #666;                        /* Grey color for the label text */
+    font-weight: normal;
+                    /* Normal font weight for simplicity */
+  }
+  
+  /* Additional class to hide the label when the input is focused */
+  .search-label-hidden {
+    display: none;    
+                 /* Hides the label text when input is focused */
+  }

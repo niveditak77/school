@@ -1,0 +1,139 @@
+.main-container {
+  height: 100%;
+  overflow-y: auto; 
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+body {
+  position: relative;
+  background-color: white;
+  color: black;
+}
+
+.MuiButton-containedPrimary {
+    background-color:#44b8ab;
+    border-radius:19px; /* Custom primary button color */
+  }
+  .MuiButton-containedPrimary:hover{
+    background-color:#89d6cd; 
+    /* background-color:#daf6f3;  */
+    
+  }
+
+  /* Styling for the table container */
+.MuiPaper-root {
+  border-radius: 12px; /* Rounded corners only for the outer container */
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); /* Subtle shadow for depth */
+}
+
+/* Styling for the table */
+.MuiTable-root {
+  width: 100%;
+  border-collapse: collapse; /* No space between cells */
+}
+
+/* Styling for the table header */
+.MuiTableHead-root {
+  background-color: #f5f5f5; /* Light grey background */
+}
+
+.MuiTableCell-head {
+  font-weight: bold;
+  color: #333; /* Dark grey text */
+  padding: 12px;
+  text-align: left;
+}
+
+/* Styling for the table rows */
+.MuiTableRow-root {
+  border-bottom: 1px solid #e0e0e0; /* Light grey border between rows */
+  border-radius: 0; /* Removes rounded corners */
+}
+
+.MuiTableCell-body {
+  padding: 12px;
+  color: #555; /* Medium grey text */
+}
+
+/* Icon buttons */
+.MuiIconButton-root {
+  color: #009688; /* Teal color for edit icon */
+}
+
+.MuiIconButton-root.secondary {
+  color: #f44336; /* Red color for delete icon */
+}
+
+/* Alternate row styling */
+.MuiTableRow-root:nth-of-type(odd) {
+  background-color: #fafafa; /* Light grey background for odd rows */
+}
+
+/* Remove last border in the last row */
+.MuiTableRow-root:last-of-type {
+  border-bottom: none;
+}
+/* Remove any background images or pseudo-elements from table rows */
+.MuiTableRow-root {
+  background-image: none !important; /* Ensure no background image */
+}
+
+.MuiTableRow-root::before, 
+.MuiTableRow-root::after {
+  content: none !important; /* Remove any pseudo-elements */
+}
+
+/* Check for other potential areas of decorative styling */
+.MuiTableCell-root::before,
+.MuiTableCell-root::after {
+  content: none !important; /* Also remove any pseudo-elements from table cells */
+}
+.edit-expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.edit-expense-form .MuiTextField-root {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.edit-expense-form .MuiButton-root {
+  margin-top: 20px;
+}
+
+.dialog-content {
+  padding: 24px;
+}
+
+.dialog-actions {
+  padding: 8px 24px;
+}
+
+.menuItemName {
+  color: #7B8B8E; /* Blue */
+  
+}
+
+.menuItemInvoiceNo {
+  color: #7B8B8E; /* Red */
+ 
+}
+
+.menuItemExpCategory {
+  color: #7B8B8E; /* Orange */
+ 
+}
+
+.menuItemDate {
+  color: #7B8B8E; /* Grey */
+  font-size: 16px;
+}
+

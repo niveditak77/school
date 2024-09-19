@@ -1,0 +1,29 @@
+.videobtn {
+    margin-top: 7px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: #44b8ab;
+    text-transform: none;
+    width: 120px;
+    font-size: 14px;
+    left: 2px;
+}
+
+.videobtn:hover {
+    background-color: #89d6cd;
+}
+
+.videosearch {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #44b8ab;
+    text-transform: none;
+    width: 120px;
+    font-size: 14px;
+    left: 2px;
+}
+
+.videosearch:hover {
+    background-color: #89d6cd;
+}

@@ -1,0 +1,160 @@
+.appBar {
+  z-index: 1100; /* Adjust this value as needed, Material-UI uses 1100 for AppBars */
+  background-color: #fff;
+  width: 100%;
+}
+.headtxt {
+  flex-grow: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search {
+  position: relative;
+  border-radius: 11px;
+  /* background-color: rgba(255, 255, 255, 0.15); */
+  background-color: #f4f4f5;
+  margin-left: 0;
+  width: auto; 
+  max-width: 220px;
+  height: 38px;
+  margin-top: -5px;
+  color:grey;
+
+}
+
+.search:hover {
+  /* background-color: #3f3f3f; */
+
+  color: gray;
+}
+
+.searchIcon {
+  padding: 0 9px;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: rgba(255, 255, 255, 0.495); */
+  color:grey;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inputRoot {
+  color: inherit;
+  width: 100%;
+}
+
+.inputInput {
+  padding: 10px 10px 10px 0;
+  padding-left: calc(1em + 20px);
+  transition: width 0.2s;
+  width: 100%;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.NavIcons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.userMenu .MuiPaper-root {
+  width: 320px;
+  background-color: black;
+  margin-top: 10px;
+  box-shadow: 2px 4px 8px rgba(255, 255, 255, 0.1), 0 6px 20px rgba(255, 255, 255, 0.13);
+  border-radius: 1px;
+}
+
+.avatar {
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.MuiMenuItem-root {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  color: white;
+}
+
+.MuiMenuItem-root:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 11px;
+}
+
+.MuiDivider-root {
+  margin: 0.5rem 0;
+  background-color: #ccc;
+}
+
+.horizontalMenuItems {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+/* Improved menu styling */
+.languageMenu .MuiPaper-root {
+  background-color: rgba(255, 255, 255, 0.15); /* Ensures the dropdown itself is also black */
+  color: white;
+  box-shadow: 2px 4px 8px rgba(255, 255, 255, 0.1), 0 6px 20px rgba(255, 255, 255, 0.13);
+  width:150px;
+  margin-left:-65px;
+  margin-top:8px;
+  cursor:pointer; /* Smooth shadow for floating effect */
+}
+
+.languageMenu .MuiMenuItem-root {
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.languageMenu .MuiMenuItem-root:hover {
+  background-color: rgba(255, 255, 255, 0.15); /* Semi-transparent hover state */
+}
+
+/* Adjust the z-index for the menu specifically if it's still causing issues */
+.languageMenu {
+  z-index: 1200; /* This should be higher than appBar if dropdown is still hiding content */
+}
+
+.currencyMenu .MuiPaper-root {
+  background-color: rgba(255, 255, 255, 0.15); /* Ensures the dropdown itself is also black */
+  color: white;
+  box-shadow: 2px 4px 8px rgba(255, 255, 255, 0.1), 0 6px 20px rgba(255, 255, 255, 0.13);
+  width: 105px; /* Adjusted to match languageMenu width */
+  margin-left: -5px; /* Adjusted to match languageMenu position */
+  margin-top: 8px;
+  cursor: pointer; /* Smooth shadow for floating effect */
+}
+
+.currencyMenu .MuiMenuItem-root {
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.currencyMenu .MuiMenuItem-root:hover {
+  background-color: rgba(255, 255, 255, 0.15); /* Semi-transparent hover state */
+}
+
+/* Adjust the z-index for the menu specifically if it's still causing issues */
+.currencyMenu {
+  z-index: 1200; /* Same as languageMenu to ensure it stays above other elements */
+}
+
+
+
+
+
